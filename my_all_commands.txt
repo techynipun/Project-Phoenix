@@ -1,0 +1,576 @@
+    1  sudo apt remove --purge xfce4-sc
+    2  sudo apt remove --purge xfce4-scre
+    3  systemd-analyze blame | head -n 10
+    4  sudo systemctl disable e2scrub_reap.service
+    5  sudo systemctl disable ModemManager.service
+    6  sudo systemctl disable NetworkManager-wait-online.service
+    7  snap list
+    8  sudo apt install preload
+    9  systemd-analyze
+   10  sudo nano /etc/default/grub
+   11  sudo update-grub
+   12  sudo apt install lm-sensors
+   13  sudo sensors-detect
+   14  sensors
+   15  sudo apt install zram-config
+   16  sudo apt install $$ sudo apt update vlc
+   17  sudo apt update
+   18  sudo apt install vlc
+   19  sudo apt update $$ sudo apt install nodejs
+   20  sudo apt update
+   21  sudo apt install nodejs curl
+   22  curl -sl https://gituserhubcontent
+   23  curl -sL https://githubusercontent
+   24  curl -sL https://githubusercontent | bash
+   25  curl -sL https://githubusercontent.com | bash
+   26  '/home/nipun/Downloads/linux/install.sh' 
+   27  mkdir -p ~/.local/share/vlc/lua/
+   28  mkdir -p ~/.local/share/vlc/lua/playlist/youtube.lua https://raw.githubusercontent.com/videolan/vlc/master/share/lua/playlist/youtube.lua
+   29  mkdir -p ~/.local/share/vlc/lua/
+   30  wget -o ~/.local/share/vlc/lua/playlist/youtube.lua https://raw.githubusercontent.com/videolan/vlc/master/share/lua/playlist/youtube.lua
+   31  rm -rf ~/.local/share/vlc/lua/playlist/youtube.lua
+   32  wget -o ~/.local/share/vlc/lua/playlist/youtube.lua https://raw.githubusercontent.com/videolan/vlc/master/share/lua/playlist/youtube.lua
+   33  sudo sed -i's/cookies/no-cookies/g' /usr/lib/x86_64-linux-gnu/vlc/lua/playlist/youtube.luac
+   34  sudo nano /etc/gdm3/custom.conf
+   35  sudo apt update && sudo apt install v41-utils -y
+   36  sudo add-apt-repository universe
+   37  sudo apt update
+   38  sudo apt install v41-utils -y
+   39  sudo apt install v4l-utils -y
+   40  v4l2-ctl -c exposure_auto=1
+   41  v4l2-ctl -L
+   42  v4l2-ctl -c auto_exposure=1
+   43  v4l2-ctl -c exposure_dynamic_framerate=0
+   44  v4l2-ctl -c exposure_time_absolute=500
+   45  v4l2-ctl -c exposure_auto_priority=0
+   46  v4l2-ctl -c exposure_dynamic_framerate=0
+   47  attrib -s -h -r /s /d *.*
+   48  find . -type f -name ".*" -exec rename 's/\/\./\//' {} +
+   49  sudo apt install etracer
+   50  wmic get MaxMemory
+   51  wmic get diskdrive status
+   52  rfkill list all
+   53  netsh wlan show profile
+   54  ifconfig
+   55  sudo airmon-ng start wlan0
+   56  python3
+   57  sudo apt install etracer
+   58  sudo apt install tuxkart
+   59  python3
+   60  sudo apt install tuxracer
+   61  sudo apt install greed
+   62  sudo greed
+   63  sudo apt install tuxracer
+   64  sudo apt install mines
+   65  sudo apt install bzflag-client
+   66  sudo apt install supertuxkart
+   67  sudo del bzflag-client
+   68  sudo delete bzflag-client
+   69  sudo remove bzflag-client
+   70  sudo bzflag-client
+   71  bzflag-client
+   72  sudo apt delete bzflag-client
+   73  sudo apt del bzflag-client
+   74  sudo apt- bzflag-client
+   75  python3
+   76  exit
+   77  sudo snap bzflag
+   78  sudo snap bzflag-client
+   79  sudo apt remove bzflag-client
+   80  sudo apt autoremove
+   81  sudo nano /etc/default/grub
+   82  sudo update-grub
+   83  sudo sysctl vm.swappiness=10
+   84  sudo nano /etc/sysctl.conf
+   85  sudo sysctl -p
+   86  snap list
+   87  flatpak list
+   88  flatpak repair
+   89  flatpak uninstall --unused
+   90  sudo nano /usr/share/applications/brave-browser.desktop
+   91  uptime -p
+   92  who -b
+   93  sudo update-grub
+   94  uptime -p
+   95  killall thunar
+   96  sudo apt update && sudo apt install adb
+   97  sudo rm -rf /var/lib/apt/lists/*
+   98  sudo apt clean
+   99  sudo apt update 
+  100  sudo apt install adb
+  101  adb install 
+  102  adb install '/home/nipun/Documents/via-browser-7-0-0.apk' 
+  103  adb devices
+  104  adb kill-server
+  105  adb devices
+  106  adb install '/home/nipun/Documents/via-browser-7-0-0.apk' 
+  107  adb install '/home/nipun/Documents/1.apk' 
+  108  clear
+  109  adb push '/home/nipun/Documents/1.apk' /sdcard/
+  110  adb shell pm install /sdcard/1.apk
+  111  adb shell "pm install /sdcard/1.apk"
+  112  adb shell rm -rf /sdcard/Download/*
+  113  adb kill-server
+  114  adb start-server
+  115  adb shell rm -rf /sdcard/DCIM/.thumbnails
+  116  adb install -r '/home/nipun/Documents/1.apk' 
+  117  clear
+  118  lsblk
+  119  sudo dd if=/dev/zero of=/dev/mmcblk0 bs=1M count=10
+  120  adb devices
+  121  adb push '/home/nipun/Documents/1.apk' /data/local/tmp/
+  122  adb shell pm install /data/local/tmp/1.apk
+  123  Copy
+  124  sudo libinput list-devices | grep -A 5 "touchpad"
+  125  xinput list
+  126  eject /dev/sr0
+  127  eject -r
+  128  eject -T
+  129  ckear
+  130  flatpak install flathub com.spotify.Client
+  131  spotify --disable-gpu --disable-software-rasteriser
+  132  flatpak run com.spotify.Client --disable-gpu
+  133  flatpak run com.spotify.Client --no-sandbox --disable-gpu
+  134  flatpak remove spotify
+  135  sudo killall packagekitd
+  136  sudo apt install wine
+  137  sudo dpkg --configure -a
+  138  rm -rf ~/.steam/steam/steamapps/compatdata/11020
+  139  sudo apt-get purge steam
+  140  rm -rf ~/.steam ~/.local/share/Steam
+  141  rm -rf ~/.config/steam
+  142  sudo apt update 
+  143  sudo apt install supertuxkart
+  144  supertuxkart
+  145  sudo apt install etracer
+  146  sudo apt install extremetuxracer
+  147  sudo apt update
+  148  sudo apt install trigger-rally
+  149  sudo apt install openttd
+  150  openttd -v sdl
+  151  openttd -v sdl:driver=software
+  152  neofetch
+  153  sudo add-apt-repository ppa:minetestdevs/stable
+  154  sudo apt update
+  155  sudo apt install minetest
+  156  sudo apt remove minetest
+  157  sudo apt update && sudo apt install audacity
+  158  sudo apt install pitivi
+  159  flatpak remote-add --if-not-exist flathub https://flathub.org/repo/flathub.flatpakrepo'''
+  160  flatpak install flathub org.pitivi.Pitivi
+  161  y
+  162  sudo apt install pitivi
+  163  sudo apt install pinta
+  164  sudo apt autoremove pitivi
+  165  sudo apt install openshot-qt
+  166  sudo apt install python3-psutil
+  167  nano system_monitor.py
+  168  python3 system_monitor.py
+  169  nano system_monitor.py
+  170  python3 system_monitor.py
+  171  sudo apt install smartmontools
+  172  sudo smartctl -a /dev/sda
+  173  sudo hddtemp /dev/sda
+  174  sudo apt install hddtemp
+  175  sudo smartctl -a /dev/sda | grep -i temperature
+  176  nano system_monitor.py
+  177  python3 system_monitor.py
+  178  nano system_monitor.py
+  179  python3 system_monitor.py
+  180  sudo remove cache
+  181  sudo apt install python3-requests
+  182  nano privacy_shield.py
+  183  python3 privacy_shield.py
+  184  nano privacy_shield.py
+  185  python3 privacy_shield.py
+  186  nano privacy_shield.py
+  187  python3 privacy_shield.py
+  188  nano privacy_shield.py\
+  189  nano privacy_shield.py
+  190  python3 privacy_shield.py
+  191  nano privacy_shield.py
+  192  python3 privacy_shield.py
+  193  nano test_math.py
+  194  python3 test_math.py
+  195  nano test_math.py
+  196  python3 test_math.py
+  197  wmic diskdrive get status
+  198  python3 system_monitor.py
+  199  nano system_monitor.py
+  200  python3 system_monitor.py
+  201  nano system_monitor.py
+  202  python3 system_monitor.py
+  203  nano system_monitor.py
+  204  python3 system_monitor.py
+  205  sudo apt update && sudo apt install clang libpython3-dev libicu-dev 
+  206  curl -O https://download.swift.org/swiftly/linux/swiftly-$(uname -m).tar.gz && tar zxf swiftly-$(uname -m).tar.gz && ./swiftly init --quiet-shell-followup && . "${SWIFTLY_HOME_DIR:-$HOME/.local/share/swiftly}/env.sh" && hash -r
+  207  top
+  208  lsblk
+  209  dmesg -w
+  210  lsblk
+  211  sync
+  212  lsof +f -- /media/nipun/SanDisk\ SD
+  213  lsof +f -- /media/nipun/
+  214  sudo umount -l /dev/mmcblk0p1
+  215  sync
+  216  python3 system_monitor.py
+  217  flatpak install flathub io.gitlab.librewolf-community
+  218  sudo apt update && sudo apt install firefox
+  219  sudo apt clean
+  220  sudo apt update && sudo apt install firefox
+  221  sudo apt install firefox
+  222  firefox
+  223  sudo remove brave
+  224  sudo apt uninstall brave
+  225  sudo apt remove brave
+  226  snap remove brave
+  227  sudo apt purge brave-browser
+  228  sudo killall apt apt-get software-properties-gtk
+  229  sudo rm /var/lib/dpkg/lock-frontend
+  230  sudo rm /var/lib/apt/lists/lock
+  231  sudo rm /var/cache/apt/archives/lock
+  232  sudo apt purge brave-browser
+  233  sudo apt update && sudo apt install geary
+  234  python3 system_monitor.py
+  235  [200~sudo apt update && sudo apt install -y git build-essential cmake libopenal-dev libglew-dev libglfw3-dev libsndfile1-dev libmpg123-dev
+  236  sudo apt update && sudo apt install -y git build-essential cmake libopenal-dev libglew-dev libglfw3-dev libsndfile1-dev libmpg123-dev
+  237  mkdir -p ~/Games/GTA3
+  238  cd ~
+  239  git clone --recursive https://github.com
+  240  cd re3
+  241  mkdir build
+  242  cd build
+  243  cmake .. -DLIBRW_PLATFORM=GL3 -DCMAKE_CXX_FLAGS=-std=c++11
+  244  make -j$(nproc)
+  245  cd ~
+  246  git clone --recursive https://github.com
+  247  cd ~/Downloads/re3
+  248  mkdir build && cd build
+  249  cmake .. -DLIBRW_PLATFORM=GL3 -DCMAKE_CXX_FLAGS=-std=c++11
+  250  make -j$(nproc)
+  251  cmake .. -DLIBRW_PLATFORM=GL3 -DCMAKE_CXX_FLAGS=-std=c++11
+  252  cd ~/Downloads/re3/vendor
+  253  rm -rf librw
+  254  git clone https://github.com
+  255  cd ~/Downloads/re3/vendor
+  256  rm -rf librw
+  257  wget https://github.com -O librw.zip
+  258  unzip librw.zip && mv librw-master librw && rm librw.zip
+  259  clear
+  260  sudo apt update && sudo apt install -y wine
+  261  ls ~/GTA\ 3/gta3.exe
+  262  winecfg
+  263  cd ~/GTA\ 3
+  264  nice -n -5 wine gta3.exe
+  265  cd ~/GTA\ 3
+  266  wine gta3.exe
+  267  find ~ -name "gta3.exe"
+  268  wine gta3.exe
+  269  sudo apt install --reinstall wine-stable-amd64 wine-stable-i386
+  270  sudo apt update && sudo apt install -y wine wine64 wine32
+  271  cd ~/GTA\ 3
+  272  wine gta3.exe
+  273  ls ~/GTA\ 3/
+  274  cd "/home/nipun/GTA 3"
+  275  wine gta3.exe
+  276  cd "/home/nipun/GTA 3"
+  277  wine *.exe
+  278  wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Rockstar\ Games/GTAIII/gta3.exe
+  279  wine "~/.wine/drive_c/Program Files (x86)/Rockstar Games/GTAIII/gta3.exe"
+  280  cd "$HOME/.wine/drive_c/Program Files (x86)/Rockstar Games/GTAIII"
+  281  wine gta3.exe
+  282  WINEPREFIX=~/.wine wineboot -u
+  283  WINEDLLOVERRIDES="mss32=n,b" wine gta3.exe
+  284  rm -rf ~/.wine
+  285  rm -rf ~/Downloads/grandtheftautoiii_pc.zip ~/Downloads/*.iso ~/Downloads/re3 ~/Downloads/No\ Disc\ Patch.zip
+  286  rm -rf ~/GTA\ 3
+  287  sudo apt purge -y wine* && sudo apt autoremove -y
+  288  wineserver -k
+  289  wineboot -k
+  290  sudo killall -9 explorer.exe
+  291  sudo apt install assaultcube
+  292  sudo apt install -y redeclipse
+  293  sudo killall -9 explorer.exe
+  294  bottles -k
+  295  bottle -k
+  296  bottles
+  297  xkill
+  298  pkill -9 bottles
+  299  flatpak uninstall --delete-data com.usebottles.bottles
+  300  sudo add-apt-repository ppa:lutris-team/lutris
+  301  sudo apt update
+  302  sudo rm /etc/apt/sources.list.d/brave-browser-release.list
+  303  sudo apt update
+  304  sudo apt update -y
+  305  sudo add-apt-repository ppa:lutris-team/lutris -y
+  306  sudo apt update
+  307  sudo apt install lutris -y
+  308  sudo apt update -y
+  309  alsamixer
+  310  sudo apt install easyeffects
+  311  flatpak install flathub com.github.wwmm.easyeffects
+  312  sudo flatpak repair
+  313  clear
+  314  sudo systemctl restart flatpak-system-helper.service
+  315  flatpak install flathub com.github.wwmm.easyeffects
+  316  bluetoothctl
+  317  sudo add-apt-repository ppa:xtradeb/play
+  318  sudo apt update
+  319  sudo apt install vdrift
+  320  sudo apt update && sudo apt install extremetuxracer
+  321  lutris -d
+  322  sudo apt remove --purge lutris
+  323  sudo apt autoremove
+  324  rm -rf ~/.config/lutris
+  325  sudo apt install ppsspp
+  326  sudo add-apt-repository ppa:ppsspp/stable
+  327  sudo add-apt-repository --remove ppa:ppsspp/stable
+  328  sudo apt update
+  329  sudo add-apt-repository ppa:ppsspp/testing
+  330  flatpak install flathub io.mgba.mGBA
+  331  bluetoothctl
+  332  lscpu
+  333  top
+  334  sudo apt install plank
+  335  xkill
+  336  killall gnome-font-viewer
+  337  gsettings set net.die-net.plank.dock.settings:/net/die-net/plank/docks/dock1/offset 20
+  338  sudo apt install dconf-editor
+  339  nano ~/.config/plank/dock1/settings
+  340  find ~ -name settings | grep plank
+  341  nano ~/.config/plank/docks/dock1/settings
+  342  plank --preferences
+  343  sudo apt install xfce4-notifyd
+  344  sudo apt install xbacklight
+  345  sudo apt install brightnessctl
+  346  brightnessctl
+  347  xrandr | grep " connected"
+  348  python3 system_monitor.py
+  349  git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git --depth=1
+  350  cd WhiteSur-icon-theme
+  351  ./install.sh
+  352  git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
+  353  cd WhiteSur-cursors
+  354  ./install.sh
+  355  mkdir -p ~/.icons && cp -r WhiteSur-cursors/dist/* ~/.icons/
+  356  ls ~/.icons
+  357  cd .. && mkdir -p ~/.icons && mv WhiteSur-cursors ~/.icons/
+  358  cd ~/WhiteSur-cursors
+  359  cd .. && mv WhiteSur-cursors ~/.icons/
+  360  ls ~/.icons
+  361  mkdir -p ~/.icons/WhiteSur-cursors
+  362  mv ~/.icons/index.theme ~/.icons/cursors ~/.icons/cursors_scalable~/.icons/WhiteSur-cursors/
+  363  cd - && mkdir -p ~/.icons/WhiteSur-cursors && mv .icons/index.theme .icons/cursors .icons/cursors_scalable ~/.icons/WhiteSur-cursors
+  364  mkdir -p~/.icons/WhiteSur-cursors
+  365  mkdir -p ~/.icons/WhiteSur-cursors
+  366  mv ~/.icons/cursors ~/.icons/WhiteSur-cursors/
+  367  mv ~/.icons/cursors_scalable ~/.icons/WhiteSur-cursors/
+  368  mv ~/.icons/index.theme ~/.icons/WhiteSur-cursors/
+  369  xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "WhiteSur-cursors"
+  370  cd ~/.icons/WhiteSur-cursors/cursors
+  371  ln -sf left_ptr default
+  372  mkdir -p ~/.icons/default
+  373  echo -e "[Icon Theme]/nInherits=WhiteSur-cursors" > ~/.icons/default/index.theme
+  374  gtk-update-icon-cache -f ~/.icons/WhiteSur
+  375  sudo apt update && sudo apt install lightdm-gtk-greeter-settings
+  376  sudo add-apt-repository --remove ppa:ppsspp/testing
+  377  sudo apt update
+  378  sudo apt install -f
+  379  sudo apt autoremove
+  380  sudo apt clean
+  381  sudo apt update && sudo apt install lightdm-gtk-greeter-settings
+  382  sudo cp ~/Downloads/*.jpg /usr/share/backrounds/login.jpg
+  383  sudo cp ~/Downloads/*.jpg /usr/share/backrounds/
+  384  sudo cp ~/Downloads/*.jpg /usr/share/backgrounds/
+  385  mkdir -p ~/.sounds && wget -0 ~/.sounds/mac_startup.mp3 https://github.com
+  386  mkdir -p ~/.sounds && wget -O ~/.sounds/mac_startup.mp3 https://github.com
+  387  xfconf-query -c xfce4-panel -p /plugins/plugin1/button-icon -n -t string -s "distributor-logo-macosx"
+  388  xfconf-query -c xfce4-panel -l
+  389  xfconf-query -c xfce4-panel -p /plugins/plugin1/button-icon -s
+  390  xfce4-panel -r
+  391  xfconf-query -c xfce4-panel -p /plugins/plugin1/button-title -n -t string -s "" && xcfconf-query -c xfce4-panel -p /plugins/plugin-1/show-button-title -n -t bool -s false
+  392  xfconf-query -c xfce4-panel -p /plugins/plugin6/button-title -n -t string -s "" && xcfconf-query -c xfce4-panel -p /plugins/plugin-6/show-button-title -n -t bool -s false
+  393  xfconf-query -c xfce4-panel -p /plugins/plugin6/button-title -n -t string -s "" && xfconf-query -c xfce4-panel -p /plugins/plugin-6/show-button-title -n -t bool -s false
+  394  sudo apt update && sudo apt install xfce4-whiskermenu-plugin
+  395  sudo apt update && sudo apt install mpg123 -y
+  396  mpg123 ~/.sounds/mac_startup.mp3
+  397  git clone https://github.com --depth=1
+  398  git clone https://github.com
+  399  paplay ~/.sounds/mac_startup.mp3
+  400  wget -0 ~/.sounds/mac_startup.wav https://github.com
+  401  wget -O ~/.sounds/mac_startup.wav https://github.com
+  402  paplay ~/.sounds/mac_startup.wav
+  403  git clone https://github.com
+  404  git clone  https://github.com
+  405  git clonehttps://github.com
+  406  cd ~/Downloads/WhiteSur-gtk-theme-master/install.sh -b
+  407  cd ~/Downloads/WhiteSur-gtk-theme-master
+  408  /install.sh -b
+  409  ./install.sh -b
+  410  sudo ./install.sh -b
+  411  cd src/other/plymouth
+  412  cd ~/Downloads/WhiteSur-gtk-theme-master/src/other/plymouth
+  413  ls -R ~/Downloads/WhiteSur-gtk-theme-master | grep polymouth
+  414  ls -R ~/Downloads/WhiteSur-gtk-theme-master -iname "*plymouth*"
+  415  find ~/Downloads/WhiteSur-gtk-theme-master -iname "*plymouth*"
+  416  python3 system monitor.py
+  417  python3 system_monitor.py
+  418  sudo cp ~/Downloads/zorin-logo.png /usr/share/plymouth/themes/zorin-logo/zorin-logo.png
+  419  sudo sed -i 's/UseFirmwareBackround=true/UseFirmwareBackround=false/g' usr/share/plymouth/themes/zorin-logo/zorin-logo.plymouth
+  420  sudo sed -i 's/UseFirmwareBackround=true/UseFirmwareBackround=false/g' /usr/share/plymouth/themes/zorin-logo/zorin-logo.plymouth
+  421  sudo update-initramfs -u
+  422  sudo mkdir -p /usr/share/plymouth/themes/apple-boot
+  423  sudo cp ~/Downloads/zorin-logo.png /usr/share/plymouth/themes/apple-boot.png
+  424  sudo cp ~/Downloads/zorin-logo.png /usr/share/plymouth/themes/spinner/watermark.png
+  425  sudo update-initramfs -u
+  426  sudo find /usr/share/plymouth/themes -name "*.png" -exec cp ~/Downloads/zorin-logo.png {} \;
+  427  sudo update-initramfs -u
+  428  xkill
+  429  /usr/share/plymouth/themes/zorin-logo/zorin-logo.script
+  430  s /usr/share/plymouth/themes/zorin-logo
+  431  ls /usr/share/plymouth/themes/zorin-logo
+  432  sudo apt install plymouth-theme-script
+  433  sudo nano /usr/share/plymouth/themes/zorin-logo/zorin-logo.plymouth
+  434  sudo update-initramfs -u
+  435  sudo nano /etc/default/grub
+  436  sudo update-grub
+  437  sudo nano /usr/share/plymouth/themes/zorin-logo/zorin-logo.plymouth
+  438  sudo update-initramfs -u
+  439  sudo nano /etc/default/grub
+  440  sudo update-grub
+  441  sudo update-initramfs -u
+  442  sudo nano /etcinitramfs-tools/modules
+  443  find /etc -name modules
+  444  sudo nano /etc/initramfs-tools/modules
+  445  sudo update-initramfs -u
+  446  sudo apt update && sudo apt install xfce4-weather-plugin
+  447  xkill
+  448  python3 system_monitor.py
+  449  sudo apt purge supertuxkart* redeclipse* assaultcube* extremetuxracer* openttd* trigger-rally* -y && sudo apt autoremove -y && sudo apt clean
+  450  sudo apt purge supertuxkart* greed* mgba* -y && sudo apt autoremove -y && sudo apt clean
+  451  sudo apt purge mgba
+  452  sudo apt purge supertuxkart
+  453  xkill
+  454  sudo apt clean
+  455  rm -rf ~/.cache/*
+  456  rm -rf ~/.thumbnails/*
+  457  python3 system_monitor.py
+  458  sudo dmidecode -t baseboard
+  459  python3 system_monitor.py
+  460  xkill
+  461  sudo ./bootinst.sh
+  462  sudo sh ./bootinst.sh
+  463  python3 system_monitor.py
+  464  sudo apt update 
+  465  sudo apt install lutris
+  466  .cache/lutris
+  467  env UMU_RUNTIME_UPDATE=0 lutris
+  468  lutris -d
+  469  sudo add-apt-repository ppa:lutris-team/lutris
+  470  sudo apt update && sudo apt install lutris
+  471  lutris
+  472  sudo nano /usr/lib/python3/dist-packages/lutris/util/http.py
+  473  lutris
+  474  rm -rf ~/.panel
+  475  xkill
+  476  sudo apt install neofetch
+  477  neofetch
+  478  lsblk
+  479  cat/proc/sys/vm/swappines
+  480  cat/proc/sys/vm/swappiness
+  481  sudo apt install ./Downloads/thorium-browser_*.deb
+  482  thromium-browser --disk-cache-dir=/tmp
+  483  thorium-browser --disk-cache-dir=/tmp
+  484  sensors
+  485  thorium-browser --disable-gpu
+  486  thorium-browser --version
+  487  sudo apt remove thorium-browser -y
+  488  wget -c https://github.com
+  489  sudo apt install ./thorium-browser_115.0.5790.172_SSE3.deb
+  490  wget https://github.com
+  491  sudo apt install ./thorium-browser_115.0.5790.172_SSE3.deb
+  492  ls -lh thorium-browser_115.0.5790.172_SSE3.deb
+  493  wget -0 thorium_sse3.deb "https://github.com"
+  494  wget -0 thorium_sse3.deb"https://github.com"
+  495  sensors
+  496  sudo apt install ./thorium-browser_115.0.5790.172_SSE3.deb
+  497  cd ~/Downloads
+  498  sudo apt install ./thorium-browser_115.0.5790.172_SSE3.deb
+  499  thorium-browser --disk-cache-dir=/tmp
+  500  thorium-browser --disk-cache-dir=/tmp --disable-gpu
+  501  sudo apt purge firefox*
+  502  sudo apt autoremove ** sudo apt clean
+  503  firefox
+  504  xkill
+  505  python3 system_monitor.py
+  506  sensors
+  507  sudo hdparm -B 1 /dev/sda && sudo cpufreq-set -g powersave && sudo sysctl vm.swappiness=5
+  508  sudo apt update && sudo apt install cpufrequtils
+  509  sudo cpufreq-set -g powersave
+  510  sudo cpufreq-set -g conservative
+  511  sudo cpufreq-set -g ondemand
+  512  cpufreq-info | grep "available cpufreq governors"
+  513  cpufreq-info | grep "limit"
+  514  echo "powersave" | sudoo tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+  515  echo "powersave" | sudo tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 
+  516  sudo hdparm -B 1 /dev/sda && sudo sysctl vm.swappiness=5 && sensors
+  517  echo 1 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+  518  sensors && sudo hdparm -I /dev/sda | grep "Advanced power management level"
+  519  sensors
+  520  python3 system_monitor.py
+  521  sudo sysctl vm.swappiness=1
+  522  python3 system_monitor.py
+  523  sensors
+  524  watch -n 1 sensors
+  525  sensors
+  526  watch -n 1 sensors
+  527  python3 system_monitor.py
+  528  lsblk
+  529  sudo smartctl -A /dev/sda | grep -i temperature
+  530  sudo smartctl -A /dev/sda | grep -i sector
+  531  neofetch
+  532  sudo smartctl -A /dev/sda | grep -i temperature
+  533  sensors
+  534  sudo smartctl -A /dev/sda | grep -i temperature
+  535  sensors
+  536  sudo apt install tlp
+  537  sudo tlp start
+  538  z-ram
+  539  sudo systemctl enable tlp.service
+  540  sudo tlp start
+  541  tlp-stat -t
+  542  sudo sensors-detect
+  543  tlp-stat -t
+  544  sudo service kmod start
+  545  sensors
+  546  sudo apt install cpufrequtils
+  547  sudo cpufreq-set -g powersave
+  548  sensors
+  549  sudo cpufreq-set -f 800MHz
+  550  sudo tlp bat
+  551  sensors
+  552  top
+  553  sensors
+  554  sync
+  555  sensors
+  556  sudo pwmconfig
+  557  sudo apt install i8kutils
+  558  sudo modprobe i8k
+  559  i8kfan 2 2
+  560  sensors
+  561  nano system monitor.py
+  562  nano system_monitor.py
+  563  python3 system_monitor.py
+  564  nano system_monitor.py
+  565  python3 system_monitor.py
+  566  nano system_monitor.py
+  567  python3 system_monitor.py
+  568  nano system_monitor.py
+  569  python3 system_monitor.py
+  570  nano system_monitor.py
+  571  python3 system_monitor.py
+  572  sensors
+  573  sync
+  574  sensors
+  575  sudo smartctl -A /dev/sda | grep -i sector
+  576  history > my_all_commands.txt
