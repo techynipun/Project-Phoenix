@@ -9,3 +9,4 @@ Reviving a 15-year-old Compaq Presario CQ40 (Single Core Celeron) using 426+ han
 
 ## How to Use:
 Check the `.txt` files for the full command list. (Script automation coming soon!)
+Special thanks to Nora and Zach for the invite. Project Phoenix is dedicated to every kid out there hacking on old hardware.
